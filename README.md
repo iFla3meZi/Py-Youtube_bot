@@ -28,7 +28,7 @@ cd youtube-video-downloader-bot
 ```
 pip install -r requirements.txt
 ```
-Замените 'YOUR_BOT_TOKEN' в файле bot.py на токен вашего Telegram-бота, полученный от BotFather.
+Замените 'TOKEN' в файле main.py на токен вашего Telegram-бота, полученный от BotFather.
 Запустите бота:
 ```
 python main.py
