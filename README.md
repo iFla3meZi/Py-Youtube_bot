@@ -18,7 +18,7 @@ pytube - библиотека для работы с видео на YouTube
 # Установка и запуск
 Клонируйте репозиторий:
 ```
-git clone https://github.com/your-username/youtube-video-downloader-bot.git
+git clone [https://github.com/your-username/youtube-video-downloader-bot.git](https://github.com/iFla3meZi/Py-Youtube_bot)
 ```
 Перейдите в директорию проекта:
 ```
