@@ -15,14 +15,14 @@ pytube - библиотека для работы с видео на YouTube
 
 Установка и запуск
 Клонируйте репозиторий:
-#<code>git clone https://github.com/your-username/youtube-video-downloader-bot.git#<code>
+<code>git clone https://github.com/your-username/youtube-video-downloader-bot.git#<code>
  Перейдите в директорию проекта:
-#<code>cd youtube-video-downloader-bot#<code>
+<code>cd youtube-video-downloader-bot#<code>
  Установите зависимости:
-#<code>pip install -r requirements.txt<code>
+<code>pip install -r requirements.txt<code>
 Замените 'YOUR_BOT_TOKEN' в файле bot.py на токен вашего Telegram-бота, полученный от BotFather.
 Запустите бота:
-#<code> python bot.py<code> 
+<code> python bot.py<code> 
 
 Использование
 1) Найдите вашего бота в Telegram по имени, которое вы указали при регистрации бота у BotFather.
