@@ -7,7 +7,7 @@ from aiogram.utils import executor
 from pytube import YouTube
 
 # Замените на ваш токен бота
-API_TOKEN = '6809549157:AAGf3dqiL3m-4nTMztTYf5XGRgvbdbtRiw8'
+API_TOKEN = 'API_TOKEN'
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
