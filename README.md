@@ -10,7 +10,7 @@
 
 # Библиотеки
 ```
-Python 3.x
+Python 3.x - версия python
 aiogram 2.25.1 - библиотека для создания Telegram-ботов
 pytube - библиотека для работы с видео на YouTube
 ```
