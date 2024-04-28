@@ -26,7 +26,7 @@ def sanitize_filename(filename):
 # Обработчик команды /start
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    await message.reply("Привет! Отправь мне ссылку на видео с YouTube, и я помогу тебе его скачать.")
+    await message.reply("Привет! Отправь мне ссылку на видео с YouTube, а я помогу тебе его скачать.")
 
 # Обработчик ссылок на видео YouTube
 @dp.message_handler(regexp=r'(https?://)?(www\.)?(youtube\.com/watch\?v=|youtu\.be/)([a-zA-Z0-9_-]{11})')
@@ -46,7 +46,8 @@ async def process_youtube_link(message: types.Message):
         await message.reply(f"Видео: {video_title}\nВыберите опцию для скачивания:", reply_markup=keyboard)
     except Exception as e:
         await message.reply(f"Произошла ошибка при обработке ссылки: {e}")
-
+        
+# Обработчик выбора опции для скачивания видео
 @dp.callback_query_handler(Text(startswith="download_video:"))
 async def process_download_video(callback_query: types.CallbackQuery):
     _, video_id = callback_query.data.split(':', 1)
