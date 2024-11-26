@@ -22,7 +22,7 @@ git clone https://github.com/iFla3meZi/Py-Youtube_bot
 ```
 Перейдите в директорию проекта:
 ```
-cd youtube-video-downloader-bot
+cd Py-Youtube_bot
 ```
 Установите зависимости:
 ```
